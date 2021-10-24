@@ -1,23 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Noto+Serif:wght@400;700&display=swap');
 
-* {
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat';
     scroll-behavior: smooth;
+    background: #F0F0F9;
 }
 
 .nav-area {
     width: 90%;
+    padding: 8px 15px;
     margin: auto;
     background: #8600EF;
-    border-radius: 0 15px 0 15px;
+    border-radius: 0px 0px 25px 25px;
 }
 
 nav {
     color: #F6F6F6;
-    padding: 1%;
     display: flex;
     align-items: center;
     font-weight: 600;
@@ -75,4 +76,54 @@ nav .button a:hover {
     color: #4C2882;
     background: #fdfdfd;
 }
+
+.components {
+    width: 92%;
+    margin: auto;
+    background: #F0F0F9;
+}
+
+.components-area {
+    background: #fdfdfd;
+    margin-top: 20px;
+    padding: 20px 40px;
+    border-radius: 25px;
+}
+
+.components-area i {
+    font-size: 30px;
+}
+
+.components-area .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.components-area h1 {
+    display: flex;
+    align-items: center;
+    font-family: 'Noto Serif';
+    font-size: 30px;
+}
+
+hr {
+    height: 2px;
+    background-color: #ccc;
+    border: none;
+}
+
+.components-area .row .column-one{
+    flex-basis: 15%;
+}
+
+.column-one {
+    width: 150px;
+    height: 200px;
+    background: #F0F0F9;
+    border-radius: 10px;
+    padding: 10px 25px;
+    margin-left: 25px;
+}
+
 
