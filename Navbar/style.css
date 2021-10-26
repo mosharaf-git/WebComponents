@@ -90,14 +90,22 @@ nav .button a:hover {
     border-radius: 25px;
 }
 
+.components-area .components-area-header {
+    display: flex;
+    align-items: center;
+}
+
 .components-area i {
-    font-size: 30px;
+    font-size: 25px;
+    margin-right: 10px;
+    padding-top: 5px;
 }
 
 .components-area .row {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
+    padding-top: 30px;
 }
 
 .components-area h1 {
@@ -113,17 +121,89 @@ hr {
     border: none;
 }
 
-.components-area .row .column-one{
-    flex-basis: 15%;
-}
-
 .column-one {
-    width: 150px;
-    height: 200px;
+    flex-basis: 16%;
+    width: 170px;
+    height: 220px;
     background: #F0F0F9;
-    border-radius: 10px;
-    padding: 10px 25px;
-    margin-left: 25px;
+    border-radius: 15px;
+    padding: 2%;
+    margin-top: 20px;
 }
 
+.column-one a {
+    display: block;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 15px 8px;
+    color: #111;
+    transition: .3s;
+}
 
+.column-one a:hover {
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.column-two {
+    flex-basis: 70%;
+}
+
+.column-two h2 {
+    line-height: 20px;
+}
+
+.column-two .input-field input {
+    margin-top: 10px;
+    width: 20px;
+}
+
+.column-two .input-field label {
+    font-size: 16px;
+    font-weight: 600;
+    color: #272727;
+}
+
+.column-two .input-field a {
+    display: block;
+    color: #4C2882;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 20px;
+}
+
+.column-two .c-t-box {
+    display: block;
+    color: #272727;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    border: 2px solid #cccc;
+    border-radius: 10px;
+    padding: 8px 10px;
+    margin-bottom: 20px;
+}
+
+.column-two .c-t-box h4 {
+    line-height: 10px;
+}
+
+.column-two .button {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.column-two .button a {
+    padding: 8px 15px;
+    text-decoration: none;
+}
+
+.column-two .button a:hover {
+    color: #fdfdfd;
+    background: #4C2882;
+    border-radius: 8px;
+}
