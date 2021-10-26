@@ -13,8 +13,9 @@ body {
     width: 90%;
     padding: 8px 15px;
     margin: auto;
-    background: #8600EF;
+    background-color: #8600EF;
     border-radius: 0px 0px 25px 25px;
+    box-shadow: 0px 5px 20px rgb(0 0 0 / 20%);
 }
 
 nav {
@@ -24,6 +25,7 @@ nav {
     font-weight: 600;
     font-size: 16px;
     justify-content: space-between;
+    
 }
 
 nav .logo {
@@ -196,14 +198,20 @@ hr {
     align-items: center;
     justify-content: right;
 }
+.column-two .button a:nth-child(1) {
+    margin-right: 10px;
+}
 
 .column-two .button a {
+    font-weight: 500;
     padding: 8px 15px;
     text-decoration: none;
+    transition: all .5s;
+    margin-right: 10px;
 }
 
 .column-two .button a:hover {
     color: #fdfdfd;
     background: #4C2882;
-    border-radius: 8px;
+    border-radius: 10px;
 }
